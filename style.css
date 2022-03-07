@@ -1,0 +1,28 @@
+h3
+{
+font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+background-color: lightseagreen;
+font-size: 25px;
+}
+
+canvas
+{
+animation-name:lexi;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes lexi
+{
+from{box-shadow: 1px 1px 20px black;}
+to{box-shadow: 1px 1px 20px gray;}
+}
+
+body
+{
+background-color: #0fa0cb;
+}
